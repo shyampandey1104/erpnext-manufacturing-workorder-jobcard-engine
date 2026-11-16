@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mfg_engine *.css
+recursive-include mfg_engine *.csv
+recursive-include mfg_engine *.html
+recursive-include mfg_engine *.ico
+recursive-include mfg_engine *.js
+recursive-include mfg_engine *.json
+recursive-include mfg_engine *.md
+recursive-include mfg_engine *.png
+recursive-include mfg_engine *.py
+recursive-include mfg_engine *.svg
+recursive-include mfg_engine *.txt
+recursive-exclude mfg_engine *.pyc
